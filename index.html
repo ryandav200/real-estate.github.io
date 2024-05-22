@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <section >
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://www.musbonrealestate.com/wp-content/uploads/2023/01/1608455_H_30-1.jpg" class="d-block w-100 " style="height:400px; object-fit:cover" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.realestatedatabase.net/PropertyPhotos/464/202105130301250678_202105130154214215.jpeg" style="height:400px; object-fit:cover" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://spectrumproperties.co.ug/wp-content/uploads/2020/03/House-for-sale-in-Kira-Kampala-Uganda-4.jpeg" style="height:400px; object-fit:cover" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section id="features-section" class="py-5">
+      <div class="row pb-3">
+       <div class="col text-center">
+        <h1>Why us?</h1>
+      </div> 
+      </div>
+      <div class="container">
+        <div class="row mt-3 ">
+            <div class="col">
+              <div class="text-center">
+                <img class="bg-dark rounded-circle" style="width:100px; height:100px" src="https://static.vecteezy.com/system/resources/previews/013/530/940/original/money-money-dollar-icon-sign-money-dollar-icon-money-icon-isolated-on-white-background-money-icon-with-hand-design-illustration-money-icon-flat-money-simple-sign-free-vector.jpg" alt="" srcset="">
+                <h4 class="mt-2">Title</h4>
+              </div>
+            </div>
+            <div class="col">
+              <div class="text-center">
+                <img class="bg-dark rounded-circle" style="width:100px; height:100px" src="data:image/png;base64,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" alt="" srcset="">
+                <h4 class="mt-2">Title</h4>
+              </div>
+            </div>   
+            <div class="col">
+              <div class="text-center">
+                <img class="bg-dark rounded-circle" style="width:100px; height:100px" src="https://static.vecteezy.com/system/resources/previews/013/530/940/original/money-money-dollar-icon-sign-money-dollar-icon-money-icon-isolated-on-white-background-money-icon-with-hand-design-illustration-money-icon-flat-money-simple-sign-free-vector.jpg" alt="" srcset="">
+                <h4 class="mt-2">Title</h4>
+              </div>
+            </div>
+            <div class="col">
+              <div class="text-center">
+                <img class="bg-dark rounded-circle" style="width:100px; height:100px" src="https://static.vecteezy.com/system/resources/previews/013/530/940/original/money-money-dollar-icon-sign-money-dollar-icon-money-icon-isolated-on-white-background-money-icon-with-hand-design-illustration-money-icon-flat-money-simple-sign-free-vector.jpg" alt="" srcset="">
+                <h4 class="mt-2">Title</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="py-5 " id="about-section">
+      <div class="row">
+        <div class="col text-center pb-5">
+          <h1>Who we are</h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 col-sm-6">
+            <h3>Our story</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum possimus voluptas tempore tempora, amet quo corrupti dolor repellendus iusto placeat. Tempore laborum eos placeat in perferendis architecto quis pariatur minima!</p>
+            <a class="link-opacity-10-hover" href="#">Read more</a>
+          </div>
+          <div class="col-12 col-sm-6">
+            <img src="/assets/2151064880.jpg" style="height:300px; width:100%; object-fit: cover;">
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="services-section" class="py-5">
+      <div class="row">
+        <div class="col text-center pb-5">
+          <h1>What we do</h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 col-sm-6 text-center">
+            <img src="/assets/land.jpg" style="height:300px; width:100%; object-fit: cover;">
+            <h3 class="text-center mt-3">Land Sales</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a class="btn btn-primary" href="">Learn more</a>
+          </div>
+          <div class="col-12 col-sm-6  text-center">
+            <img src="/assets/house.jpg" style="height:300px; width:100%; object-fit: cover;">
+            <h3 class="text-center mt-3">House Sales</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a class="btn btn-primary " href="">Learn more</a>
+          </div>
+      </div>
+
+    </section>
+    <section id="portfolio-section" class="py-5">
+      <div class="row">
+        <div class="col text-center pb-5">
+          <h1 >List of our top properties</h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 text-center">
+            <div class="card">
+              <img src="/assets/house.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6  col-md-4 text-center">
+            <div class="card" style="">
+              <img src="/assets/house.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6  col-md-4 text-center">
+            <div class="card" style="">
+              <img src="/assets/house.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </section>
+<script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
